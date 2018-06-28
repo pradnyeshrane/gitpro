@@ -531,8 +531,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#306d9e', end
 	float: left;
 	margin-bottom: 20px;
 }
-li
-{
+
+.smallall{
 	display: block;
 	padding: 6%;
 }
