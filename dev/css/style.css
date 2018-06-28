@@ -156,9 +156,9 @@ hr {
 }
 
 
-.intro h1 {
+.intro h2 {
 	color: rgba(255,255,255,0.9);
-	font-size: 72px;
+	font-size: 40px;
 	font-weight: 800;
 	letter-spacing: -1px;
 	text-transform: uppercase;
@@ -173,7 +173,7 @@ hr {
 	margin-top: 20px;
 }
 .intro span {
-	color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,0.9);
 	font-size: 28px;
 	font-weight: 300;
 }
