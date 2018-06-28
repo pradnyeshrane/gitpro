@@ -87,6 +87,7 @@ hr {
 	color: rgba(255,255,255,0.8);
 	font-weight: 500;
 	text-transform: uppercase;
+	opacity :1;
 }
 #menu a.navbar-brand:hover {
 	color: #306d9e;
@@ -147,20 +148,22 @@ hr {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/1.jpg) no-repeat right bottom;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(../img/1.jpg) no-repeat;
+    	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover;                 
 }
 
 
 
 .intro h2 {
 	color: rgba(255,255,255,0.9);
-	font-size: 40px;
-	font-weight: 800;
+	font-size: 200%;
+	font-weight: 120%;
 	letter-spacing: -1px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -234,7 +237,7 @@ ul.cat li {
 	display: inline-block;
 }
 ol.type li {
-	display: inline-grid;
+	display: inline !important;
 	padding-bottom:10%;
 	margin-left: 20px;
 }
@@ -385,10 +388,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99306d9e', e
 	padding: 0;
 	margin: 0;
 }
+/*contact us section*/
+#cont {
+	padding: 120px 0 80px 0;
+	background: #f6f6f6;
+	
+}
+#addr{
+	color: #8e9599;
+	font-size: 150%;
+	font-width: 150%;
+	text-align: left;
+}
+
 /* Testimonials Section */
 #testimonials {
 	padding: 120px 0 80px 0;
-	background: #F6F6F6;
+	background: #f6f6f6;
 }
 #testimonials i.fa {
 	color: #8e9599;
@@ -527,7 +543,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#306d9e', end
 	color: #fff;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 #about img {
 	float: left;
 	margin-bottom: 20px;
