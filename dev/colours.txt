@@ -1,0 +1,8 @@
+hex format colours i used
+1d1f63 for button of learn only
+306d9e   rgb format 46,109,58,1
+
+colours i changed from
+C54DAA
+cd65b5
+306d9e
