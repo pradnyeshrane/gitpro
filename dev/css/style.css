@@ -234,7 +234,8 @@ ul.cat li {
 	display: inline-block;
 }
 ol.type li {
-	display: inline-block;
+	display: inline-grid;
+	padding-bottom:1%;
 	margin-left: 20px;
 }
 ol.type li a {
@@ -534,7 +535,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#306d9e', end
 
 .smallall{
 	display: block;
-	padding: 6%;
+	padding: 0%,50%,10%,20%;
+	width: 100%;
 }
 
 
