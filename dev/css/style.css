@@ -156,6 +156,7 @@ hr {
 }
 
 
+
 .intro h2 {
 	color: rgba(255,255,255,0.9);
 	font-size: 40px;
@@ -203,7 +204,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 120px 0;
+	padding: 1% 0;
 }
 #services h4 {
 	color: #306d9e;
@@ -530,4 +531,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#306d9e', end
 	float: left;
 	margin-bottom: 20px;
 }
+li
+{
+	display: block;
+	padding: 6%;
+}
+
+
 }
