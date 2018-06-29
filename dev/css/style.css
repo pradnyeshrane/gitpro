@@ -554,7 +554,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#306d9e', end
 	color: #fff;
 }
 
-@media only screen and (max-width: 437px) {
+@media only screen and (max-width: 600px) {
 #about img {
 	float: left;
 	margin-bottom: 20px;
