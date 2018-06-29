@@ -94,7 +94,7 @@ hr {
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: rgba(255,255,255,0.8);
+	color: rgba(255,255,255,1);
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -152,10 +152,13 @@ hr {
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
                      url(../img/1.jpg) no-repeat;
+     background-size: 100% 100%;                 
+
     	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	-o-background-size: cover;                 
+	-o-background-size: cover;
+	               
 }
 
 
@@ -224,6 +227,14 @@ header .intro-text {
 	background: #306d9e;
 	border-radius: 50%;
 }
+#services i.fa:hover {
+	background-color:#1d1f63;
+
+} 
+#services h4:hover {
+	color:#1d1f63;
+
+}
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
@@ -237,7 +248,7 @@ ul.cat li {
 	display: inline-block;
 }
 ol.type li {
-	display: inline !important;
+	display: inline;
 	padding-bottom:10%;
 	margin-left: 20px;
 }
@@ -391,7 +402,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99306d9e', e
 /*contact us section*/
 #cont {
 	padding: 120px 0 80px 0;
-	background: #f6f6f6;
+	background: #A9A9A9;
 	
 }
 #addr{
@@ -543,17 +554,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#306d9e', end
 	color: #fff;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 437px) {
 #about img {
 	float: left;
 	margin-bottom: 20px;
 }
 
 .smallall{
+
 	display: block;
+	width:80%;
+	margin-left:5px !important;
 	padding: 0%,50%,10%,20%;
 	width: 100%;
 }
+ol.type li {
+	display: inline-grid;
+}
 
+.intro{
+	 background-size: 100% 100%;
+}
 
 }
