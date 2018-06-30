@@ -10,7 +10,7 @@ body, html {
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 400;
-	font-size: 36px;
+	font-size: 45px;
 	color: #777;
 	text-transform: uppercase;
 }
@@ -166,6 +166,7 @@ hr {
 .intro h2 {
 	color: rgba(255,255,255,0.9);
 	font-size: 200%;
+	text-shadow: 2px 3px #a28787;
 	font-weight: 120%;
 	letter-spacing: -1px;
 	text-transform: uppercase;
