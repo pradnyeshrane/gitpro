@@ -151,7 +151,7 @@ hr {
 	background: linear-gradient(
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
-                     url(../img/1.jpg) no-repeat;
+                     url(../images/back.gif) no-repeat;
      background-size: 100% 100%;                 
 
     	-webkit-background-size: cover;
@@ -248,7 +248,7 @@ ul.cat li {
 	display: inline-block;
 }
 ol.type li {
-	display: inline;
+	display: inline--grid;
 	padding-bottom:10%;
 	margin-left: 20px;
 }
@@ -577,3 +577,20 @@ ol.type li {
 }
 
 }
+
+
+.jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo {
+      font-size: 200px;
+  }
+  }
