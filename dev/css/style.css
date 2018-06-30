@@ -188,7 +188,8 @@ hr {
 header .intro-text {
 	padding-top: 250px;
 	padding-bottom: 200px;
-	padding-left: 100px;
+	padding-left: 20%;
+	margin: 0px auto;
 }
 /* About Section */
 #about {
