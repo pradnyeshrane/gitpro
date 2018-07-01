@@ -390,6 +390,7 @@ ol.type li a:hover {
 	background: linear-gradient(to right, rgba(197,77,170,0.6) 0%, rgba(27,113,214,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99306d9e', endColorstr='#991b71d6', GradientType=1 ); /* IE6-9 */
 }
+
 #achievements h2 {
 	color: #fff;
 }
@@ -427,7 +428,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99306d9e', e
 	background: white;
 }
 #testimonials i.fa {
-	color: #8e9599;
+	color: ;
 	font-size: 36px;
 }
 #testimonial {
@@ -620,6 +621,9 @@ ol.type li {
 	display:block;
 	width:100%;
 	height:80%;
+}
+#lodo{
+	margin-top:10px;
 }
 }
 
