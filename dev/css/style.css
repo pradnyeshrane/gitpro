@@ -623,7 +623,7 @@ ol.type li {
 	height:80%;
 }
 #lodo{
-	margin-top:10px;
+	margin-top:10px !important;
 }
 }
 
